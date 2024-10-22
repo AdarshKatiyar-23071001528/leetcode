@@ -8,6 +8,11 @@ class Solution:
         s1=''
         s2 = removeSpecial(s)
         s2 =s2.lower()
+        # s4 = s0[::-1]
+        # if(s4==s2):
+        #     return True
+        # else:
+        #     return False
         for i in s2:
             if len(s2)==2:
                 if s2[0]==s2[1]:
