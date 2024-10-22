@@ -9,9 +9,6 @@ class Solution:
         s2 = removeSpecial(s)
         s2 =s2.lower()
         for i in s2:
-            # if 65<=ord(i) and 90>=ord(i):
-            #     n = ord(i)+32
-            #     s1+=chr(n)
             if len(s2)==2:
                 if s2[0]==s2[1]:
                     return True
