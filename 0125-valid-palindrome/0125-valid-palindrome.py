@@ -5,8 +5,10 @@ def removeSpecial(s):
     return s3
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        s1=''
-        s2 = removeSpecial(s)
+        chars = "!@#$%^&*()-+?_=,<>/;."
+        for char in chars:
+            s2 = s.replace(char, "")
+        s1 = ''
         s2 =s2.lower()
         # s4 = s0[::-1]
         # if(s4==s2):
