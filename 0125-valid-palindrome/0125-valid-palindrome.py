@@ -1,8 +1,8 @@
-def removeSpecial(s):
-    chars = "!@#$%^&*()-+?_=,<>/;."
-    for char in chars:
-        s3 = s.replace(char, "")
-    return s3
+# def removeSpecial(s):
+#     chars = "!@#$%^&*()-+?_=,<>/;."
+#     for char in chars:
+#         s3 = s.replace(char, "")
+#     return s3
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         chars = "!@#$%^&*()-+?_=,<>/;."
