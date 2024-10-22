@@ -9,7 +9,7 @@ def replace(n,x):
     return x1
 class Solution:
     def validPalindrome(self, s: str) -> bool:
-        if s == reverse(s):
+        if s == s[::-1]:
             return True
         else:
             p = 0
